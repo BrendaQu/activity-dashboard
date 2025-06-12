@@ -105,7 +105,7 @@ const ChartMenu = ({
         </FormControl>
         <Box sx={{ m: 1, minWidth: 100 }}>
           <FormControl fullWidth size="small">
-            <Tooltip title="Select the amount of data points shown">
+            <Tooltip title="Select the amount of data points to display">
               <InputLabel id="data-density-label">Data Density </InputLabel>
             </Tooltip>
             <Select

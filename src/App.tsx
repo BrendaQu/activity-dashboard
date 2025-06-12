@@ -17,8 +17,8 @@ function App() {
   ];
 
   const [dataDensity, setDataDensity] = useState({
-    densityType: "High",
-    densityValue: 10,
+    densityType: "Full",
+    densityValue: 1,
   });
 
   /**
