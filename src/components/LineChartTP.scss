@@ -1,0 +1,28 @@
+
+.line-chart-wrapper {
+  padding: 10px;
+  margin: 5px;
+
+  .line-chart-title {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+  }
+  .stats-card {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 5px;
+    font-size: 14px;
+  }
+
+  .line-chart-item {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+}

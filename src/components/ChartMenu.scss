@@ -1,0 +1,14 @@
+.chart-menu-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding: 8px;
+    background-color: #edeef0;
+
+    .filter-icon {
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        font-size: 14px;
+    }
+}
