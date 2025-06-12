@@ -54,7 +54,7 @@ const ChartMenu = ({
     onEmitGraphs(multiSelect);
   };
   /**
-   *hanles the change event for Data Density filter
+   *handles the change event for Data Density filter
    * @param event - change event, event.target.value will be a string that can be used as a key for dataDensityOption to get value
    */
   const handleDensityChange = (event: SelectChangeEvent) => {
