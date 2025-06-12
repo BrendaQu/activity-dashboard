@@ -64,7 +64,12 @@ const LineChartTP = ({
             {index !== 0 ? (
               <MuiTooltip title="Move Left">
                 <IconButton onClick={() => handleMoveLeft(index)}>
-                  <ArrowLeftIcon />
+                  <ArrowLeftIcon
+                    sx={{
+                      height: "32px", // Or a percentage
+                      width: "32px", // Or a percentage
+                    }}
+                  />
                 </IconButton>
               </MuiTooltip>
             ) : null}
@@ -105,7 +110,12 @@ const LineChartTP = ({
             {visibilityCount - 1 !== index ? (
               <MuiTooltip title="Move Right">
                 <IconButton onClick={() => handleMoveRight(index)}>
-                  <ArrowRightIcon />
+                  <ArrowRightIcon
+                    sx={{
+                      height: "32px", // Or a percentage
+                      width: "32px", // Or a percentage
+                    }}
+                  />
                 </IconButton>
               </MuiTooltip>
             ) : null}
