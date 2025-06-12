@@ -16,6 +16,7 @@ function App() {
     "Temperature",
   ];
 
+  // Data density useState with default variable
   const [dataDensity, setDataDensity] = useState({
     densityType: "Full",
     densityValue: 1,
@@ -69,6 +70,7 @@ function App() {
     });
   });
 
+  //converting GraphsData into array and storing in graphArray useState (easier for rearranging graph with array)
   const [graphArray, setGraphArray] = useState(Object.values(GraphsData));
 
   /**

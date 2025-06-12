@@ -22,6 +22,8 @@ type MenuItem = { id: string; displayName: string; visibility: boolean };
 
 type DensityType = keyof typeof dataDensityOptions;
 
+//All Data Density Options, these are associated with factors values to calculate how many data points to display.
+// This is not in requirement but I thought that user might want an option to visualize the data without too many data points plotted
 const dataDensityOptions = {
   Low: 30,
   Medium: 20,
