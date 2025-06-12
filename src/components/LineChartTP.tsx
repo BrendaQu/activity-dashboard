@@ -80,7 +80,7 @@ const LineChartTP = ({
               <XAxis dataKey="time" tick={{ angle: -25, fontSize: 11 } as any}>
                 <Label
                   value="Duration (time)"
-                  offset={-10}
+                  offset={-8}
                   position="insideBottom"
                   fontSize={14}
                 />
