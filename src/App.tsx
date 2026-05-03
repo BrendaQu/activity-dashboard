@@ -123,7 +123,7 @@ function App() {
   const getAvg = (data: DataItem[]) => {
     const total = data.reduce(
       (sum: number, curr: DataItem) => sum + curr.measurement,
-      0
+      0,
     );
     return parseFloat((total / data.length).toFixed(2));
   };
@@ -138,7 +138,7 @@ function App() {
   const moveItem = (
     graphArr: GraphTypeItem[],
     index: number,
-    direction: number
+    direction: number,
   ) => {
     const newGraphArr = [...graphArr];
     const [moveItem] = newGraphArr.splice(index, 1);
@@ -179,7 +179,7 @@ function App() {
   return (
     <>
       <div className="page-heading">
-        <h2 className="heading-text">TrainingPeaks Front End Assessment</h2>
+        <h2 className="heading-text">Activity Dashboard</h2>
       </div>
       <ChartMenu
         menu={graphArray}

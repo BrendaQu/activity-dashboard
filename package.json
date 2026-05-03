@@ -1,12 +1,12 @@
 {
-  "name": "frontend-code-test",
+  "name": "activity-dashboard",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
-    "lint": "eslint frontend-code-test",
+    "lint": "eslint activity-dashboard",
     "preview": "vite preview"
   },
   "dependencies": {
